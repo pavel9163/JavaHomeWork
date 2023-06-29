@@ -1,8 +1,7 @@
+package Home3;
 import java.util.ArrayList;
 import java.util.Scanner;
-
-public class ArrayListUtils {
-
+public class Home3 {
     public static void removeEven(ArrayList<Integer> list) {
         list.removeIf(num -> num % 2 == 0);
     }
